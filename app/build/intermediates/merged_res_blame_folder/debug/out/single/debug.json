@@ -1,138 +1,158 @@
 [
     {
-        "merged": "com.pellicola.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/activity_main.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "com.pellicola.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
         "source": "com.pellicola.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/layout_item_movie.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/item_movie.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_bg_search_field.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\bg_search_field.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/layout_item_favorite.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/item_favorite.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "com.pellicola.app-merged_res-34:/drawable_bg_input_field.xml.flat",
+        "source": "com.pellicola.app-main-36:/drawable/bg_input_field.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_bg_button_purple.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/bg_button_purple.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_activity_search_results.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\activity_search_results.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.pellicola.app-merged_res-34:/layout_activity_login.xml.flat",
+        "source": "com.pellicola.app-main-36:/layout/activity_login.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/layout_activity_search_results.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/activity_search_results.xml"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_favorite_filled.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_favorite_filled.xml"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_movie_placeholder.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_movie_placeholder.xml"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_favorite_border.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_favorite_border.xml"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/layout_activity_splash.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/activity_splash.xml"
-    },
-    {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "com.pellicola.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.pellicola.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/layout_activity_favorites.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/activity_favorites.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "com.pellicola.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.pellicola.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_item_favorite.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\item_favorite.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_bg_search_field.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/bg_search_field.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_pellicola_logo.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_pellicola_logo.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_favorite_filled.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_favorite_filled.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/layout_activity_detail.xml.flat",
-        "source": "com.pellicola.app-main-36:/layout/activity_detail.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_bg_button_purple.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\bg_button_purple.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_search.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_search.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_favorite_border.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_favorite_border.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_activity_favorites.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\activity_favorites.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/drawable_ic_delete.xml.flat",
-        "source": "com.pellicola.app-main-36:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.pellicola.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.pellicola.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_movie_placeholder.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_movie_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\drawable_ic_pellicola_logo.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\drawable\\ic_pellicola_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-merged_res-34:\\layout_item_movie.xml.flat",
+        "source": "C:\\Users\\vitor\\.gradle\\daemon\\8.4\\com.pellicola.app-main-36:\\layout\\item_movie.xml"
     }
 ]

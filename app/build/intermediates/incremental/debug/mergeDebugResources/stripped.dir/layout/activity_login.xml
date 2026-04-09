@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:padding="32dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_pellicola_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Nome do app -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-light"
+        android:letterSpacing="0.25"
+        android:text="PELLICOLA"
+        android:textColor="@color/text_primary"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="O seu cinema pessoal"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAppName" />
+
+    <!-- Card de login -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:cardBackgroundColor="@color/bg_surface"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTagline">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- Título -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Boa noite"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="O que você quer\nassistir hoje?"
+                android:textColor="@color/accent_purple"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingMultiplier="1.2" />
+
+            <!-- Label E-mail -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="E-MAIL"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"
+                android:letterSpacing="0.1"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Campo E-mail -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_input_field"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:hint="seu@email.com"
+                android:textSize="15sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true" />
+
+            <!-- Label Senha -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="SENHA"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"
+                android:letterSpacing="0.1"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Campo Senha -->
+            <EditText
+                android:id="@+id/etSenha"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_input_field"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:hint="••••••••"
+                android:textSize="15sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <!-- Esqueceu a senha -->
+            <TextView
+                android:id="@+id/tvEsqueceuSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="24dp"
+                android:text="Esqueceu sua senha?"
+                android:textColor="@color/accent_purple"
+                android:textSize="12sp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <!-- Botão Entrar -->
+            <Button
+                android:id="@+id/btnEntrar"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_button_purple"
+                android:text="ENTRAR"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:letterSpacing="0.1"
+                android:fontFamily="sans-serif-medium" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

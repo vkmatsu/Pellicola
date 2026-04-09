@@ -24,7 +24,7 @@
 17-->[androidx.core:core:1.12.0] C:\Users\vitor\.gradle\caches\transforms-3\f50d06c60f96e9fc61217bc4dd4e61f4\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:6:5-43:19
+19-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:6:5-49:19
 20        android:allowBackup="true"
 20-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:7:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -42,129 +42,139 @@
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Pellicola" >
 29-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:12:9-47
-30        <activity
-30-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:14:9-22:20
-31            android:name="com.pellicola.activities.SplashActivity"
-31-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:15:13-54
-32            android:exported="true"
-32-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:16:13-36
-33            android:theme="@style/Theme.Pellicola.Splash" >
-33-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:17:13-58
-34            <intent-filter>
-34-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:18:13-21:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:19:17-69
-35-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:19:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:17-77
-37-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:27-74
-38            </intent-filter>
-39        </activity>
-40        <activity
-40-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:24:9-26:40
-41            android:name="com.pellicola.activities.MainActivity"
-41-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:25:13-52
-42            android:exported="false" />
-42-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:26:13-37
-43        <activity
-43-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:28:9-31:69
-44            android:name="com.pellicola.activities.SearchResultsActivity"
-44-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:29:13-61
-45            android:exported="false"
-45-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:30:13-37
-46            android:parentActivityName="com.pellicola.activities.MainActivity" />
-46-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:31:13-66
-47        <activity
-47-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:33:9-36:78
-48            android:name="com.pellicola.activities.DetailActivity"
-48-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:34:13-54
-49            android:exported="false"
-49-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:35:13-37
-50            android:parentActivityName="com.pellicola.activities.SearchResultsActivity" />
-50-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:36:13-75
-51        <activity
-51-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:38:9-41:69
-52            android:name="com.pellicola.activities.FavoritesActivity"
-52-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:39:13-57
-53            android:exported="false"
-53-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:40:13-37
-54            android:parentActivityName="com.pellicola.activities.MainActivity" />
-54-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:41:13-66
-55
-56        <provider
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-57            android:name="androidx.startup.InitializationProvider"
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-58            android:authorities="com.pellicola.androidx-startup"
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-59            android:exported="false" >
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-60            <meta-data
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-62                android:value="androidx.startup" />
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-63            <meta-data
-63-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vitor\.gradle\caches\transforms-3\85cedc69c835e0eada7d7d6609d9d309\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-64-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vitor\.gradle\caches\transforms-3\85cedc69c835e0eada7d7d6609d9d309\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-65                android:value="androidx.startup" />
-65-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vitor\.gradle\caches\transforms-3\85cedc69c835e0eada7d7d6609d9d309\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+30
+31        <!-- Tela inicial: Login -->
+32        <activity
+32-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:15:9-23:20
+33            android:name="com.pellicola.activities.LoginActivity"
+33-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:16:13-53
+34            android:exported="true"
+34-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:17:13-36
+35            android:theme="@style/Theme.Pellicola" >
+35-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:18:13-51
+36            <intent-filter>
+36-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:19:13-22:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:17-69
+37-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:21:17-77
+39-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:21:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:25:9-28:61
+43            android:name="com.pellicola.activities.SplashActivity"
+43-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:26:13-54
+44            android:exported="false"
+44-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:27:13-37
+45            android:theme="@style/Theme.Pellicola.Splash" />
+45-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:28:13-58
+46        <activity
+46-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:30:9-32:40
+47            android:name="com.pellicola.activities.MainActivity"
+47-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:31:13-52
+48            android:exported="false" />
+48-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:32:13-37
+49        <activity
+49-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:34:9-37:69
+50            android:name="com.pellicola.activities.SearchResultsActivity"
+50-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:35:13-61
+51            android:exported="false"
+51-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:36:13-37
+52            android:parentActivityName="com.pellicola.activities.MainActivity" />
+52-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:37:13-66
+53        <activity
+53-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:39:9-42:78
+54            android:name="com.pellicola.activities.DetailActivity"
+54-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:40:13-54
+55            android:exported="false"
+55-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:41:13-37
+56            android:parentActivityName="com.pellicola.activities.SearchResultsActivity" />
+56-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:42:13-75
+57        <activity
+57-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:44:9-47:69
+58            android:name="com.pellicola.activities.FavoritesActivity"
+58-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:45:13-57
+59            android:exported="false"
+59-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:46:13-37
+60            android:parentActivityName="com.pellicola.activities.MainActivity" />
+60-->C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:47:13-66
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.pellicola.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 66            <meta-data
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 68                android:value="androidx.startup" />
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-69        </provider>
-70        <provider
-70-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
-71            android:name="com.squareup.picasso.PicassoProvider"
-71-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
-72            android:authorities="com.pellicola.com.squareup.picasso"
-72-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
-73            android:exported="false" />
-73-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
-74
-75        <receiver
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-77            android:directBootAware="false"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-78            android:enabled="true"
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-79            android:exported="true"
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-80            android:permission="android.permission.DUMP" >
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-86            </intent-filter>
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vitor\.gradle\caches\transforms-3\e69a62ca39e6198c632e72a391f0c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vitor\.gradle\caches\transforms-3\85cedc69c835e0eada7d7d6609d9d309\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vitor\.gradle\caches\transforms-3\85cedc69c835e0eada7d7d6609d9d309\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\vitor\.gradle\caches\transforms-3\85cedc69c835e0eada7d7d6609d9d309\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+75        </provider>
+76        <provider
+76-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+77            android:name="com.squareup.picasso.PicassoProvider"
+77-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+78            android:authorities="com.pellicola.com.squareup.picasso"
+78-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+79            android:exported="false" />
+79-->[com.squareup.picasso:picasso:2.8] C:\Users\vitor\.gradle\caches\transforms-3\eb509010b7ba3d798909e731934f2dc8\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 89            </intent-filter>
 90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 92            </intent-filter>
-93        </receiver>
-94    </application>
-95
-96</manifest>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vitor\.gradle\caches\transforms-3\9630e77ddef7243c52f78f2ea19841bb\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>

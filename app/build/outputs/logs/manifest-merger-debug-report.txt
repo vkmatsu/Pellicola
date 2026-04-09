@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:2:1-51:12
 MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Users\vitor\.gradle\caches\transforms-3\8d28185ca43a1b1b5cdc229f9dd28245\transformed\viewbinding-8.1.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\vitor\.gradle\caches\transforms-3\ee61919aa1546544fb5a0c2fa035ca94\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vitor\.gradle\caches\transforms-3\094d3263c284b0862b78e2d1848dc9a4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -64,8 +64,8 @@ ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:4
 	android:name
 		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:6:5-43:19
-INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:6:5-43:19
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:6:5-49:19
+INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:6:5-49:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\vitor\.gradle\caches\transforms-3\ee61919aa1546544fb5a0c2fa035ca94\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\vitor\.gradle\caches\transforms-3\ee61919aa1546544fb5a0c2fa035ca94\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vitor\.gradle\caches\transforms-3\094d3263c284b0862b78e2d1848dc9a4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -100,54 +100,62 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vitor\.gradle\cach
 		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:12:9-47
-activity#com.pellicola.activities.SplashActivity
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:14:9-22:20
+activity#com.pellicola.activities.LoginActivity
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:17:13-36
 	android:theme
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:17:13-58
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:18:13-51
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:15:13-54
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:16:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:18:13-21:29
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.pellicola.activities.SplashActivity
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:25:9-28:61
+	android:exported
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:28:13-58
+	android:name
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:26:13-54
 activity#com.pellicola.activities.MainActivity
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:25:13-52
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:31:13-52
 activity#com.pellicola.activities.SearchResultsActivity
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:28:9-31:69
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:34:9-37:69
 	android:parentActivityName
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:31:13-66
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:37:13-66
 	android:exported
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:29:13-61
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:35:13-61
 activity#com.pellicola.activities.DetailActivity
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:33:9-36:78
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:39:9-42:78
 	android:parentActivityName
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:36:13-75
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:42:13-75
 	android:exported
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:34:13-54
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:40:13-54
 activity#com.pellicola.activities.FavoritesActivity
-ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:38:9-41:69
+ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:44:9-47:69
 	android:parentActivityName
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:41:13-66
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:47:13-66
 	android:exported
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:39:13-57
+		ADDED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml:45:13-57
 uses-sdk
 INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vitor\Downloads\pellicola\app\src\main\AndroidManifest.xml

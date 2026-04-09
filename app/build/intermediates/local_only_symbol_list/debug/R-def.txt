@@ -17,6 +17,7 @@ color text_primary
 color text_secondary
 color white
 drawable bg_button_purple
+drawable bg_input_field
 drawable bg_search_field
 drawable ic_delete
 drawable ic_favorite_border
@@ -27,10 +28,14 @@ drawable ic_movie_placeholder
 drawable ic_pellicola_logo
 drawable ic_search
 id appBarLayout
+id btnEntrar
 id btnFavorites
 id btnRemoveFavorite
 id btnSearch
+id cardLogin
+id etEmail
 id etSearch
+id etSenha
 id fabFavorite
 id imgPoster
 id ivLogo
@@ -44,6 +49,7 @@ id tvAppName
 id tvCount
 id tvDirector
 id tvEmpty
+id tvEsqueceuSenha
 id tvGenre
 id tvGreeting
 id tvLanguage
@@ -56,6 +62,7 @@ id tvTitle
 id tvYear
 layout activity_detail
 layout activity_favorites
+layout activity_login
 layout activity_main
 layout activity_search_results
 layout activity_splash
