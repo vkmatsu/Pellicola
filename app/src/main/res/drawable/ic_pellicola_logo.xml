@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Fundo roxo arredondado -->
+    <path
+        android:fillColor="#FF7C5CBF"
+        android:pathData="M16,0 L64,0 Q80,0 80,16 L80,64 Q80,80 64,80 L16,80 Q0,80 0,64 L0,16 Q0,0 16,0 Z" />
+
+    <!-- Bobina de filme simplificada -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M40,20 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0" />
+    <path
+        android:fillColor="#FF7C5CBF"
+        android:pathData="M40,20 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- Furos da bobina -->
+    <path android:fillColor="#FF7C5CBF" android:pathData="M40,10 m-2,-2 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M50,14 m-2,-2 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M30,14 m-2,-2 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M54,24 m-2,-2 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M26,24 m-2,-2 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Tira de filme embaixo -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M14,50 L66,50 L66,62 L14,62 Z" />
+    <!-- Furos da tira -->
+    <path android:fillColor="#FF7C5CBF" android:pathData="M18,52 L22,52 L22,60 L18,60 Z" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M27,52 L31,52 L31,60 L27,60 Z" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M36,52 L40,52 L40,60 L36,60 Z" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M45,52 L49,52 L49,60 L45,60 Z" />
+    <path android:fillColor="#FF7C5CBF" android:pathData="M54,52 L58,52 L58,60 L54,60 Z" />
+
+</vector>

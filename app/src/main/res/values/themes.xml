@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Pellicola" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_purple</item>
+        <item name="colorPrimaryVariant">@color/accent_purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_purple</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_surface</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+
+    <!-- Tema da Splash sem ActionBar e com fundo escuro -->
+    <style name="Theme.Pellicola.Splash" parent="Theme.Pellicola">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+    </style>
+
+    <!-- Estilo da Toolbar -->
+    <style name="PellicolaToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/bg_surface</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+    </style>
+
+</resources>

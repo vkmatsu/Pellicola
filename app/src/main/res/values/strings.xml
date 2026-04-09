@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pellicola</string>
+    <string name="search_hint">Buscar filmes, séries…</string>
+    <string name="no_results">Nenhum resultado encontrado.</string>
+    <string name="no_favorites">Nenhum filme salvo ainda.</string>
+    <string name="added_favorite">Adicionado aos favoritos!</string>
+    <string name="removed_favorite">Removido dos favoritos.</string>
+    <string name="error_no_internet">Sem conexão com a internet.</string>
+    <string name="error_loading">Não foi possível carregar.</string>
+</resources>

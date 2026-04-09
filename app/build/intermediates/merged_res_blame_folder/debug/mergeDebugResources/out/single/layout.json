@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.pellicola.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/activity_search_results.xml",
+        "source": "com.pellicola.app-main-36:/layout/activity_search_results.xml"
+    },
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/activity_detail.xml",
+        "source": "com.pellicola.app-main-36:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/item_favorite.xml",
+        "source": "com.pellicola.app-main-36:/layout/item_favorite.xml"
+    },
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/item_movie.xml",
+        "source": "com.pellicola.app-main-36:/layout/item_movie.xml"
+    },
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/activity_favorites.xml",
+        "source": "com.pellicola.app-main-36:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "com.pellicola.app-mergeDebugResources-33:/layout/activity_splash.xml",
+        "source": "com.pellicola.app-main-36:/layout/activity_splash.xml"
+    }
+]
